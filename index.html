@@ -3,81 +3,87 @@
     <head>
         <meta charset="UTF-8">
         <title>HTML</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <table cellpadding="15">
-            <tr>
-                <td>
-                    <img src="https://gas-kvas.com/uploads/posts/2022-06/1655260433_1-gas-kvas-com-p-kotik-foto-zhivotnogo-1.jpg"
-                         width="300"
-                         alt="My photo">
-                </td>
-                <td>
-                    <h1><em>Hello World!</em></h1>
-                    <p><em>Nikolai Orobets</em></p>
-                    <p><strong>Martha Orobets</strong></p>
-                </td>
-            </tr>
-        </table>
+        <div class="container">
+            <div class="info">
+                <img src="cat.jpg"
+                     alt="Cat photo"
+                     class="avatar">
+                <h1>Hello World!</h1>
+                <p>Nikolai Orobets</p>
+                <p>Martha Orobets</p>
+            </div>
 
-        <hr>
-        <h2>My Networks</h2>
-        <ul>
-            <li>comment</li>
-            <li>comment</li>
-        </ul>
-        <h2>My Networks</h2>
-        <ol type="a">
-            <li>Networks</li>
-            <li><a href="">Networks</a></li>
-            <li><a href="" target="_blank">Networks</a></li>
-        </ol>
+            <hr>
+            <div class="social">
+                <h2>My Networks</h2>
+                <ul>
+                    <li>comment</li>
+                    <li>comment</li>
+                </ul>
+                <h2>My Networks</h2>
+                <ol type="a">
+                    <li>Networks</li>
+                    <li><a href="">Networks</a></li>
+                    <li><a href="" target="_blank">Networks</a></li>
+                </ol>
+            </div>
 
-        <hr>
-        <h2>My Courses</h2>
-        <a href="youtube.html">Look!</a>
+            <hr>
+            <h2>My Courses</h2>
+            <a href="youtube.html">Look!</a>
 
-        <hr>
-        <h2>My Table</h2>
-        <table border="2">
-            <tr>
-                <th>Company</th>
-                <th>Job title</th>
-                <th>Year</th>
-            </tr>
-            <tr>
-                <td>Academy</td>
-                <td>Director</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Academy</td>
-                <td>Director</td>
-                <td>2022</td>
-            </tr>
-        </table>
+            <hr>
+            <h2>My Table</h2>
+            <table border="2">
+                <tr>
+                    <th>Company</th>
+                    <th>Job title</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Academy</td>
+                    <td>Director</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>Academy</td>
+                    <td>Director</td>
+                    <td>2022</td>
+                </tr>
+            </table>
 
-        <hr>
-        <h2>My Contacts</h2>
-        <form action="">
-            <label for="name1">Your name:</label>
-            <input type="text" id="name1"
-                   placeholder="Your name...">
-            <input type="date">
-            <br>
-            <br>
-            <label for="name2">Your Email:</label>
-            <input type="email" id="name2"
-                   placeholder="Your Email...">
-            <input type="submit" value="Отправить">
-            <br>
-            <br>
-            <label for="name3">Your Text:</label>
-            <br>
-            <textarea id="name3" rows="4" cols="25">Text:</textarea>
-            <br>
-            <input type="submit" value="Отправить">
-        </form>
+            <hr>
+            <h2>My Contacts</h2>
+            <form action="">
+                <label for="name1">Your name:</label>
+                <input type="text" id="name1"
+                       placeholder="Your name...">
+                <input type="date">
+                <br>
+                <br>
+                <label for="name2">Your Email:</label>
+                <input type="email" id="name2"
+                       placeholder="Your Email...">
+                <input type="submit" value="Отправить">
+                <br>
+                <br>
+                <label for="name3">Your Text:</label>
+                <br>
+                <textarea id="name3" rows="4" cols="25">Text:</textarea>
+                <br>
+                <input type="submit" value="Отправить">
+            </form>
 
+            <div class="box-model">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div style="margin-bottom: 500px"></div>
+        </div>
     </body>
 </html>
