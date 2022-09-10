@@ -43,6 +43,12 @@ a:active {
     display: flex;
     margin-bottom: 20px;
 }
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
 .inf-text {
     width: 100%;
     text-align: center;
@@ -134,26 +140,54 @@ a:active {
     color: red;
     opacity: 1;
 }
+.cb {
+    position: relative;
+    width: 50%;
+}
 .btn {
     background-color: black;
     padding: 15px 20px;
     color: white;
     border: none;
     cursor: pointer;
+
+    position: absolute;
+    left: 25%;
+    top: 23%;
 }
 .btn:hover {
     opacity: 0.5;
 }
 
 .position {
+    position: relative;
     border: 2px solid black;
     margin-top: 40px;
     padding: 15px;
+    height: 200px;
 }
 .box {
+    position: absolute;
+    left: 0;
     width: 50px;
     height: 50px;
     background: blueviolet;
+}
+.box1 {
+    position: static;
+    top: 40%;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: aqua;
+}
+.box2 {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: blue;
+    bottom: 50px;
+    right: 50px;
 }
 
 
