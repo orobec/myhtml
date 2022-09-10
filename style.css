@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
 .bg-green {
     background: darkslategray;
 }
@@ -15,6 +18,9 @@ h1 {
     color: red;
     font-style: italic;
     text-shadow: 4px 4px 14px black;
+}
+h4 {
+    margin: 5px 0px 15px;
 }
 a {
     color: black;
@@ -59,7 +65,33 @@ a:active {
     margin-top: 5px;
     margin-bottom: 15px;
 }
+.list {
+    padding: 0 25px;
+    /*list-style: none;*/
+}
+.list li {
+    color: red;
+    margin-bottom: 5px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(1),
+       td:nth-child(3) {
+    color: red;
+}
+.table tr:nth-child(odd) {
+    background-color: blue;
+}
+.table tr:nth-child(even) {
+    background-color: black;
+}
+.contacts {
 
+}
 
 
 
