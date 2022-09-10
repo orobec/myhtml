@@ -35,16 +35,21 @@ a:active {
 }
 /*a:visited {color: gray;}*/
 .avatar {
-    width: 300px;
+    width: 250px;
     border-radius: 28px;
     box-shadow: 4px 4px 14px black;
 }
 .info {
+    display: flex;
     margin-bottom: 20px;
+}
+.inf-text {
+    width: 100%;
+    text-align: center;
 }
 .info p {
     color: black;
-    margin: 0;
+    margin: 3px;
     font-style: italic;
     font-weight: bolder;
     text-decoration: none;
@@ -104,13 +109,13 @@ a:active {
 .row > .form-group {
     width: 50%;
 }
-#name3, .row > .form-group > input {
-    width: 97%;
-}
-#name4 {
+#name3 {
     margin-top: 4px;
 }
-#name5 {
+#name4, .row > .form-group > input {
+    width: 97%;
+}
+.row2 > .form-group:last-child {
     margin-top: 73px;
 }
 .form-group input, textarea {
@@ -129,7 +134,27 @@ a:active {
     color: red;
     opacity: 1;
 }
+.btn {
+    background-color: black;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.5;
+}
 
+.position {
+    border: 2px solid black;
+    margin-top: 40px;
+    padding: 15px;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background: blueviolet;
+}
 
 
 /*.social {*/
