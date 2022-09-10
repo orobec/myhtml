@@ -20,7 +20,7 @@ h1 {
     text-shadow: 4px 4px 14px black;
 }
 h4 {
-    margin: 5px 0px 15px;
+    margin: 5px 0 15px;
 }
 a {
     color: black;
@@ -89,8 +89,45 @@ a:active {
 .table tr:nth-child(even) {
     background-color: black;
 }
-.contacts {
+.contacts h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+.row {
+    display: flex;
+    margin-top: 20px;
+}
+.row > .form-group {
+    width: 50%;
+}
+#name3, .row > .form-group > input {
+    width: 97%;
+}
+#name4 {
+    margin-top: 4px;
+}
+#name5 {
+    margin-top: 73px;
+}
+.form-group input, textarea {
+    width: 30%;
+    color: blue;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid red;
+    padding: 5px 0;
+    outline: red;
 
+}
+::placeholder {
+    font-style: italic;
+    color: red;
+    opacity: 1;
 }
 
 

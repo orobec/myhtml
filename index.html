@@ -60,23 +60,29 @@
             <div class="contacts">
                 <h2>My Contacts</h2>
                 <form action="">
-                    <label for="name1">Your name:</label>
-                    <input type="text" id="name1"
-                           placeholder="Your name...">
-                    <input type="date">
-                    <br>
-                    <br>
-                    <label for="name2">Your Email:</label>
-                    <input type="email" id="name2"
-                           placeholder="Your Email...">
-                    <input type="submit" value="Отправить">
-                    <br>
-                    <br>
-                    <label for="name3">Your Text:</label>
-                    <br>
-                    <textarea id="name3" rows="4" cols="25">Text:</textarea>
-                    <br>
-                    <input type="submit" value="Отправить">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name1">Your name:</label>
+                            <input type="text" id="name1"
+                                   placeholder="Your name...">
+                            <input type="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="name2">Your email:</label>
+                            <input type="email" id="name2"
+                                   placeholder="Your email...">
+                            <input id="name4" type="submit" value="Отправить">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name3">Your text:</label>
+                            <textarea id="name3" rows="4" cols="25">Text:</textarea>
+                        </div>
+                        <div class="form-group">
+                            <input id="name5" type="submit" value="Отправить">
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
