@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-/** {*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*}*/
+
 .bg-green {
     background: darkslategray;
 }
@@ -158,60 +155,3 @@ a:active {
 .btn:hover {
     opacity: 0.5;
 }
-
-.position {
-    position: relative;
-    border: 2px solid black;
-    margin-top: 40px;
-    padding: 15px;
-    height: 200px;
-}
-.box {
-    position: absolute;
-    left: 0;
-    width: 50px;
-    height: 50px;
-    background: blueviolet;
-}
-.box1 {
-    position: static;
-    top: 40%;
-    left: 0;
-    width: 50px;
-    height: 50px;
-    background: aqua;
-}
-.box2 {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    background: blue;
-    bottom: 50px;
-    right: 50px;
-}
-
-
-/*.social {*/
-/*    background: darkslategray;*/
-/*    !*padding: 15px 20px 25px 30px;*!*/
-/*    padding-top: 15px;*/
-/*    padding-right: 20px;*/
-/*    padding-bottom: 25px;*/
-/*    padding-left: 30px;*/
-/*    margin: 25px;*/
-/*    border: 5px solid red;*/
-/*    border-bottom-style: dotted;*/
-/*    border-top-width: 15px;*/
-/*    border-right-color: blue;*/
-/*}*/
-/*.box-model > div {*/
-/*    float: left;*/
-/*    background: darkslategray;*/
-/*    height: 200px;*/
-/*    border: 4px solid red;*/
-/*    width: 19%;*/
-/*    margin: 15px;*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-/*1:07*/

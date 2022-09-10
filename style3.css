@@ -1,3 +1,9 @@
+p {
+    padding-top: 5px;
+    text-align: center;
+    margin: 0;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -6,15 +12,21 @@
     height: 300px;
 }
 .test {
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
     background: red;
     color: white;
     width: 50px;
     height: 50px;
 }
-p {
-    padding-top: 5px;
-    text-align: center;
-    margin: 0;
+
+.container2 {
+    display: grid;
+    border: 2px solid black;
+    height: 300px;
+}
+.test2 {
+    margin: auto;
+    background: red;
+    color: white;
+    width: 50px;
+    height: 50px;
 }
